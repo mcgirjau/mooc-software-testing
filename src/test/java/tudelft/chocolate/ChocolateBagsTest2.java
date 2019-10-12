@@ -5,6 +5,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 public class ChocolateBagsTest2 {
+
     @ParameterizedTest(name = "small={0}, big={1}, total={2}, result={3}")
     @CsvSource({
             // The total is higher than the amount of small and big bars.

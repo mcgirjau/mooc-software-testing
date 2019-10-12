@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class LeapYearTest {
+
     @Test
     public void leapYearsThatAreNonCenturialYears() {
         LeapYear ly = new LeapYear();
